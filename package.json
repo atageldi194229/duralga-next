@@ -1,8 +1,11 @@
 {
   "name": "duralga-next",
   "version": "0.1.0",
+  "homepage": "https://atageldi194229.github.io/duralga-next",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -16,6 +19,7 @@
   },
   "devDependencies": {
     "eslint": "8.19.0",
-    "eslint-config-next": "12.2.0"
+    "eslint-config-next": "12.2.0",
+    "gh-pages": "^4.0.0"
   }
 }
