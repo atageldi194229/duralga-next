@@ -13,4 +13,36 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 100vh;
+}
+
+.char-div-icon {
+  font-weight: bold;
+  height: 30px;
+  width: 30px;
+}
+
+.char-div-icon span {
+  height: 100%;
+  width: 100%;
+}
+
+.prototype {
+  display: none;
+}
+
+.bus_list_box {
+  min-height: 600px;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.bus_list_box::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
